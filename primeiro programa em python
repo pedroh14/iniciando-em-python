@@ -1,0 +1,20 @@
+
+def par_impar(n1):
+    if n1 % 2 == 0:
+        print("par")
+    else:
+        print("impar")
+
+
+while True:
+
+    n1 = int(input("informe um numero p/ verificar se e impar ou par: "))
+    par_impar(n1)
+
+    resp = str(input("Deseja continuar(S/N): "))
+    if resp != 'N':
+        continue
+    else:
+        break
+
+print("fim do programa")
